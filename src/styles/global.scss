@@ -27,3 +27,11 @@ input, textarea {
 button {
   cursor: pointer;
 }
+
+.containerParentApp {
+  display: flex;
+  flex-direction: row;
+  @media screen and (max-width: 700px) {
+     flex-direction: column
+  }
+}
